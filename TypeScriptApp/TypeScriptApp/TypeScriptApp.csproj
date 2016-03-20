@@ -23,12 +23,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="favicon.ico" />
     <Content Include="features\main\main.html" />
     <Content Include="index.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="features\main\MainViewModel.ts" />
     <TypeScriptCompile Include="typings\browser.d.ts" />
   </ItemGroup>
   <ItemGroup>
