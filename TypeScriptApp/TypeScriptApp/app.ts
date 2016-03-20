@@ -1,4 +1,6 @@
-﻿class Greeter {
+﻿/// <reference path="typings/browser.d.ts"/>
+
+class Greeter {
     element: HTMLElement;
     span: HTMLElement;
     timerToken: number;

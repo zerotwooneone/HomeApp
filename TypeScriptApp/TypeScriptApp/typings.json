@@ -1,0 +1,8 @@
+{
+  "name": "ASP.NET",
+  "version": false,
+  "ambientDependencies": {
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#6766ed1d0faf02ede9e2edf2e66bbb2388c825ec",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#6766ed1d0faf02ede9e2edf2e66bbb2388c825ec"
+  }
+}

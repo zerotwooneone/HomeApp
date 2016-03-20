@@ -1,3 +1,4 @@
+/// <reference path="typings/browser.d.ts"/>
 var Greeter = (function () {
     function Greeter(element) {
         this.element = element;

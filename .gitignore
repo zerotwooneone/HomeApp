@@ -1,8 +1,15 @@
+TypescriptApp/packages
 TypescriptApp/.vs
+
+TypescriptApp/TypescriptApp/app.js*
 TypescriptApp/TypescriptApp/bin
 TypescriptApp/TypescriptApp/obj
 TypescriptApp/TypescriptApp/node_modules
-TypescriptApp/packages
+TypescriptApp/TypescriptApp/typings
+
+TypescriptApp/Server/app.js*
 TypescriptApp/Server/bin
 TypescriptApp/Server/obj
 TypescriptApp/Server/node_modules
+TypescriptApp/Server/typings
+
