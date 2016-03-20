@@ -1,23 +1,22 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en"
-      ng-app>
+      ng-app="appModule">
 <head>
     <meta charset="utf-8" />
-    <title>TypeScript HTML App</title>
+    <title>Test App</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js" defer></script>
     <!--angular-animate.js
     angular-cookies.js
-    angular-resource.js
-    angular-route.js
     angular-sanitize.js
     angular-touch.js-->
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>TypeScript HTML App</h1>
-
-    <div id="content"></div>
+    <h1>Test App</h1>
+    <div ng-view></div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 ﻿/// <reference path="typings/main.d.ts"/>
 
 import http = require('http');
-http.createServer(function (request:http.IncomingMessage, response:any) {
+http.createServer(function (request:http.IncomingMessage, response:http.ServerResponse) {
     response.writeHead(200, {
         'Content-Type': 'text/html'
     });
