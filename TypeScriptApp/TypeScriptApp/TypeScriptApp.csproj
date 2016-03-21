@@ -31,6 +31,8 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="features\main\MainViewModel.ts" />
+    <TypeScriptCompile Include="Resource\ServiceFactory.ts" />
+    <TypeScriptCompile Include="Resource\Test\TestResource.ts" />
     <TypeScriptCompile Include="typings\browser.d.ts" />
   </ItemGroup>
   <ItemGroup>
