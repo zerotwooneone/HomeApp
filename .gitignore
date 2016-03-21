@@ -7,6 +7,8 @@ TypescriptApp/TypescriptApp/bin
 TypescriptApp/TypescriptApp/obj
 TypescriptApp/TypescriptApp/node_modules
 TypescriptApp/TypescriptApp/typings
+TypescriptApp/TypescriptApp/features/**/*.js
+TypescriptApp/TypescriptApp/features/**/*.js.map
 
 TypescriptApp/Server/app.js*
 TypescriptApp/Server/bin
