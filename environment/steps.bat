@@ -6,7 +6,6 @@ npm install typescript -g
 npm install typings -g
 
 cd server
-npm install express --save
 typings install
 
 cd ..\TypescriptApp
