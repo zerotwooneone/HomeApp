@@ -2,9 +2,11 @@
 
 import express = require('express');
 var app = express();
+import path = require('path');
 
 app.get('/test', function (req, res) {
-    res.send('Hello World!');
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify({ a: 1 }, null, 3));
 });
 
 app.get('/', function (req, res) {
@@ -15,6 +17,13 @@ app.get('/', function (req, res) {
         '<div id="content"><p>The teams in Group D for Euro 2012 are:</p><ul><li>England</li><li>France</li><li>Sweden</li><li>Ukraine</li></ul></div>' +
         '\n\n');
 });
+
+//app.get('/app', function (req, res) {
+//    res.sendFile(path.join(__dirname + '/../TypeScriptApp/index.html'));
+//});
+
+app.use(express.static('../TypeScriptApp'));
+
 
 var server = app.listen(3000, function () {
     var host: string = server.address().address;

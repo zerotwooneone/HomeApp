@@ -2,11 +2,14 @@
 module TypeScriptApp.Features.Main {
     export class MainViewModel {
         public Test: string;
+        public Response: string;
 
         static $inject = ["TestResource"];
-        constructor(TestResource: angular.resource.IResourceClass<angular.resource.IResource<any>>) {
+        constructor(TestResource: angular.resource.IResourceClass<any>) {
             this.Test = "test1";
-            var x = TestResource.get();
+            this.Response = TestResource.get((r) => {
+                 return console.log(r);
+            });
         }
     }
 
